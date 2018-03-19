@@ -12,6 +12,9 @@
 		903DF6CD205FFEE8004D30F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903DF6CB205FFEE8004D30F2 /* Main.storyboard */; };
 		903DF6CF205FFEE8004D30F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903DF6CE205FFEE8004D30F2 /* Assets.xcassets */; };
 		903DF6D2205FFEE8004D30F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903DF6D0205FFEE8004D30F2 /* LaunchScreen.storyboard */; };
+		903DF6DB2060011D004D30F2 /* StarsParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 903DF6D92060011D004D30F2 /* StarsParticles.scnp */; };
+		903DF6DC2060011D004D30F2 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 903DF6DA2060011D004D30F2 /* star.png */; };
+		903DF6DE20600246004D30F2 /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903DF6DD20600246004D30F2 /* EarthNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		903DF6CE205FFEE8004D30F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903DF6D1205FFEE8004D30F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		903DF6D3205FFEE8004D30F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903DF6D92060011D004D30F2 /* StarsParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = StarsParticles.scnp; sourceTree = "<group>"; };
+		903DF6DA2060011D004D30F2 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		903DF6DD20600246004D30F2 /* EarthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				903DF6C7205FFEE8004D30F2 /* AppDelegate.swift */,
 				903DF6C9205FFEE8004D30F2 /* ViewController.swift */,
+				903DF6DD20600246004D30F2 /* EarthNode.swift */,
+				903DF6D92060011D004D30F2 /* StarsParticles.scnp */,
+				903DF6DA2060011D004D30F2 /* star.png */,
 				903DF6CB205FFEE8004D30F2 /* Main.storyboard */,
 				903DF6CE205FFEE8004D30F2 /* Assets.xcassets */,
 				903DF6D0205FFEE8004D30F2 /* LaunchScreen.storyboard */,
@@ -124,7 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				903DF6D2205FFEE8004D30F2 /* LaunchScreen.storyboard in Resources */,
+				903DF6DC2060011D004D30F2 /* star.png in Resources */,
 				903DF6CF205FFEE8004D30F2 /* Assets.xcassets in Resources */,
+				903DF6DB2060011D004D30F2 /* StarsParticles.scnp in Resources */,
 				903DF6CD205FFEE8004D30F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903DF6CA205FFEE8004D30F2 /* ViewController.swift in Sources */,
+				903DF6DE20600246004D30F2 /* EarthNode.swift in Sources */,
 				903DF6C8205FFEE8004D30F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3EJJ6M7CU;
 				INFOPLIST_FILE = "3D-Earth/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.XiApps.-D-Earth";
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3EJJ6M7CU;
 				INFOPLIST_FILE = "3D-Earth/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.XiApps.-D-Earth";
